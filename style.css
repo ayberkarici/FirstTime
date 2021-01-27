@@ -8,6 +8,8 @@ body{
   align-items: center;
   min-height: 100vh;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .main-container {
@@ -20,6 +22,15 @@ body{
   box-shadow: 0 4px 15px  black;
   overflow-y: scroll;
   position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-container {
+    height: 100vh;
+    width: 100vw;
+  }
 }
 
 .result-container {
@@ -117,6 +128,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.center-align {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .close-icon {
