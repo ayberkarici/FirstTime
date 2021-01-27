@@ -361,6 +361,7 @@ a {
 .productBG {
   background-size: 100%;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .side-bar {
