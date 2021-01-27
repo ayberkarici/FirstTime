@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Recipe App</title>
+</head>
+<body>
+    <div class="main-container" id="main-container" >
+        <div class="side-bar" id="side-bar">
+            <!--<div id="menu-close"><i class="bars-icon fas fa-bars"></i></div>-->
+            <div class="menu">Menu</div>
+            <div>
+            </div>
+            <div class="menu-item">
+                <span class="pointer-menü-item">Home</span>
+            </div>
+            <div class="menu-item">
+                <span class="pointer-menü-item">Categories</span>
+            </div>
+            <div class="menu-item">
+                <span class="pointer-menü-item">Random Meal</span>
+            </div>
+            <div class="menu-item">
+                <span class="pointer-menü-item">Blog</span>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div id="menu-button"><i class="bars-icon fas fa-bars"></i></div>
+            <div id="logo">[LOGO]</div>
+            <div>
+                <div id="search-on">
+                    <i class="search-icon fas fa-search"></i>
+                </div>
+                <div id="search-off" style="display: none;">
+                    <i class="search-icon fas fa-times"></i>
+                </div>
+            </div>
+            <div>
+                <form id="form">
+                    <input type="text" id="search" class="search" style="display: none;" placeholder="What's on the table?" autocomplete="off">
+                </form>
+            </div>
+        </nav>
+        <div id="item-container" class="item-container">
+            <div class="categories-container" id="categories-container">
+                <div class="categories" id="categories">
+                </div>
+            </div>
+            <div class="suggestion" id="suggestion">
+                <div id="close-sug"><i class="close-icon fas fa-times" ></i></div>
+                <div class="recommendation">
+                    <span style="font-size: 14px; font-weight: bolder;">Just eat it</span>
+                    <div style="font-size: 14px; font-weight: thin;"><span>Random meal</span></div>
+                </div>
+                <div class="show-recommend" id="show-recommend">
+                    <span>THE CHOSEN ONE</span>
+                </div>
+            </div>
+            <div class="product-container" id="product-container">
+            </div>
+            </div>
+            <div id="result-container" class="result-container">
+            </div>
+        </div>
+    </div>
+    <script src="./all.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
