@@ -20,8 +20,8 @@ const showRecommend = document.getElementById('show-recommend');
 const sideBar = document.getElementById('side-bar')
 
 
-let prewmeal1 = ""
-let prewmeal2 = ""
+let prewmeal1 = "",
+prewmeal2 = "";
 var counter = 0
 
 async function getRandomMeal() {
